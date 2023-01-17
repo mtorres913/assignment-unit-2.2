@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Make variable called name and we're setting it to Dane as a string
+// then we check if name  equals Mary exactly and if it does, we console.log Hi Mary!
+// otherwise if the name does not  equal Mary exactly, we console.log How do you do?
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable called secret with no set value. Make a variable called code and set it to 123.
+// We check if code equals 123 exactly and if it does we set the variable secret to super and and set code to itself multiplied by 2.
+// We then check if code is greater than 250 and if it does we set the variable secret to duper.
+//We console.log(secret) Secret would be set to the value 'super' because code equals 123 exactly and is not greater than 250
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable isStudent and set its value to true. Make a variable age and set the value to 34. Make a variable zip and set the value to 55407.
+// We check if isStudent is equal to 'true' exactly and that zip is greater than 80000 and it they are both true, we console.log 'You're a student on the West Coast!`
+//If either is not true, then we check if isStudent is equal to 'false' exactly or if age is less than 30. If either is true, than we console.log 'What are your hobbies?' 
+//If none are true, then we check if isStudent is equal to 'true' exactly. If it is true, then we console.log 'Welcome to Prime!'
+//If it is not true, then we console.log 'How about the weather?' 
 
 //CODE
 /*
@@ -129,6 +130,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - colorOne is set to 'red' and not 'blue' as in the description. colorTwo is set to 'blue' and not 'red' as in the description.
+//Only colorOne is set to purple in the conditional and not colorTwo as in the description.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +147,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX - Time is set as a constant and not a variable as in the description. The conditional is checking if temp is higher than 39 OR (||) if time is greater or equal to  4
+// instead of AND (&&) as in the description
 /*
 let temp = 40;
 const time = 4;
@@ -156,6 +162,8 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+//FIX - minAge is set as a constant and not a variable as in the description.  When age checked if it is greater than or equal to minAge, there is a console.log of
+// no entry. There is no console.log of no entry in the description.
 /*
 let age = 21;
 const minAge = 21;
